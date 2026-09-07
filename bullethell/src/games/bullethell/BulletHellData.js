@@ -1,0 +1,20 @@
+const BULLET_HELL_DATA = {
+  playerStart: { x: 400, y: 550 },
+  playerSize: 20,
+  playerSpeed: 200,
+  bounds: { minX: 20, maxX: 780, minY: 130, maxY: 580 },
+  health: 3,
+  bulletSize: 12,
+  bulletColors: [0xff4444, 0xff6b6b, 0xffa500],
+  bulletStartY: -10,
+  bulletEndY: 650,
+  bulletTravelMs: 2800,
+  bulletMinSpeed: 120,
+  coinSize: 16,
+  coinColor: 0xffd700,
+  coinIntervalMs: 4000,
+  coinLifetimeMs: 8000,
+  coinBonus: 5,
+  timeBonus: 10,
+  tokenBenchmark: 120
+};
